@@ -22,4 +22,14 @@ func main() {
 	if num := 7; num == 7 {
 		fmt.Println("yeah the damn number is ", 7)
 	}
+
+	var k bool
+	switch k {
+	case true:
+		fmt.Println("it's f*cking true ☹🙃😋")
+	case false:
+		fmt.Println("it's a f*cking lie 😏😞😒")
+	default:
+		fmt.Println("mehn, i f*cking don't know 🤧🤐")
+	}
 }
