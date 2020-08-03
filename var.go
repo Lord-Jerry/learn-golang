@@ -15,4 +15,7 @@ func main() {
 
 	var e bool
 	fmt.Println(e)
+
+	const f = 3000000000
+	fmt.Println(f)
 }
